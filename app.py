@@ -11,8 +11,6 @@ import os
 load_dotenv()
 API_KEY = os.getenv("anthropic_api_key")
 
-#API_KEY = anthropic_api_key
-
 st.title("Syllabus Deadline Extractor")
 st.write("Upload a PDF or paste your syllabus text below.")
 
